@@ -1,0 +1,27 @@
+.form {
+  margin: 20vh auto auto;
+  background-color: rgba(0, 255, 200, 1);
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  padding: 5vh;
+  border-radius: 2rem;
+}
+body {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Piazzolla", serif;
+}
+input {
+  margin: 1vh;
+  border-radius: 0.2rem;
+  outline: none;
+  border: none;
+}
+input:focus {
+  outline: none;
+}

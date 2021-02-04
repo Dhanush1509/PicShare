@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PicShare</title>
+    <link rel="stylesheet" href="styles/style1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="background-image: url('../main.svg')">
+    <h1>Add image.png😊</h1>
+    <div class="form">
+      <form action="/add" method="post" enctype="multipart/form-data">
+        <input
+          type="text"
+          name="name"
+          placeholder="Name of the place"
+          id=""
+          size="36"
+          required
+        /><br />
+        <input type="file" name="image" id="" required /><br />
+        <input
+          type="text"
+          name="pesc"
+          placeholder="Your name.....Skip this field if you wish"
+          size="36"
+        /><br />
+        <input type="submit" value="Add file" /><br />
+      </form>
+    </div>
+    <!-- <script src="scripts/style1.js"></script> -->
+  </body>
+</html>

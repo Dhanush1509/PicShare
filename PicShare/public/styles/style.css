@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+body {
+  margin: 0;
+  background-image: url("../nature1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  text-align: center;
+  font-family: "Piazzolla", serif;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+}
+button a:hover {
+  color: white;
+}
+button {
+  margin: 5vw;
+  height: 55px;
+  width: 225px;
+  border-radius: 1rem;
+  background-color: rgb(2, 252, 198);
+  border: 0;
+  font-family: "Piazzolla", serif;
+  transition: all 1s ease 0s;
+}
+button:hover {
+  background-color: rgb(0, 255, 42);
+  border: 0;
+  font-family: "Piazzolla", serif;
+  outline: 0;
+  height: 65px;
+  width: 250px;
+  color: black;
+}
+input[type="submit"] {
+  width: 253px;
+}
+.navigation h1 {
+  cursor: pointer;
+}
+.quote {
+  color: black;
+
+  font-size: 3rem;
+  margin-top: 30vh;
+  /* position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top:30vh; */
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vh 0 2vh;
+
+  background-color: rgba(255, 255, 255, 0.4);
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+.navigation li a {
+  display: inline-block;
+  transition: all 1s ease 0s;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 2vh;
+  color: black;
+}
+.navigation li a:hover {
+  color: rgb(9, 236, 84);
+  font-size: 1.25rem;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    background-image: url("../nature4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    text-align: center;
+    font-family: "Piazzolla", serif;
+  }
+  .navigation li a {
+    display: inline-block;
+    transition: all 1s ease 0s;
+    text-decoration: none;
+
+    padding: 1vh;
+    color: black;
+  }
+
+  .navigation li a:hover {
+    color: rgb(9, 236, 84);
+    font-size: 1.25rem;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .quote {
+    color: black;
+
+    font-size: 1.5rem;
+    margin-top: 30vh;
+    /* position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top:30vh; */
+  }
+  button a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+  }
+  .navigation h1 {
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  button a:hover {
+    color: white;
+  }
+
+  button {
+    margin: 5vw;
+    height: 35px;
+    width: 155px;
+    border-radius: 1rem;
+    background-color: rgb(2, 252, 198);
+    border: 0;
+    font-family: "Piazzolla", serif;
+    transition: all 1s ease 0s;
+  }
+
+  button:hover {
+    background-color: rgb(0, 255, 42);
+    border: 0;
+    font-family: "Piazzolla", serif;
+    outline: 0;
+    height: 45px;
+    width: 150px;
+    color: black;
+  }
+
+  input[type="submit"] {
+    width: 153px;
+  }
+}

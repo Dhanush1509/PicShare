@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Piazzolla", serif;
+}
+.alignment {
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+  margin: 20px;
+  border: 5px red solid;
+}
+.image {
+  width: 200px;
+  height: 200px;
+}
+.items {
+  border: 0px blue solid;
+  margin: 5px;
+  padding: 5px;
+}
