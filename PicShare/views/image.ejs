@@ -13,8 +13,9 @@
       img {
         border: 3px red solid;
       }
-      z * {
+      * {
         font-family: "Piazzolla", serif;
+        margin: 1vh;
       }
     </style>
   </head>
@@ -22,8 +23,10 @@
   <body style="text-align: center">
     <h1><%=name %></h1>
     <img
+      style="width: 100%; height: auto"
       src="data:image/<%=image.contentType%>;base64, 
 					<%=image.data.toString('base64')%>"
+      download
     />
     <%if (title===""){%> <%title="Someone has shared Anonymously"%>
     <p><%=title%></p>
