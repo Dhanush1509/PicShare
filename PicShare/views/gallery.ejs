@@ -10,14 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        text-align: center;
-      }
-      h1 {
-        margin: 2vh;
-      }
-    </style>
   </head>
 
   <body>
@@ -30,6 +22,7 @@
         <div class="items">
           <a href="/images/<%=image._id%>"
             ><img
+              style="width: 100%; height: auto; margin: 1vh"
               src="data:image/<%=image.img.contentType%>;base64, 
 					<%=image.img.data.toString('base64')%>"
             />
